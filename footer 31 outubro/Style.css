@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+}
+
+.footer {
+    background-color: black;
+    /* margin-bottom: 100px;
+    padding-bottom: 50px; */
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+.logomob{
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .footer {
+        background-color: #000000;
+    }
+
+    .bloco_1{
+        display: none;
+    }
+
+    .bloco_3{
+        display: none;
+    }
+
+    .bloco_2 p {
+        display: none;
+    }
+
+    .bloco_2 h2{
+        display: none;
+    }
+
+    .respimg{
+        color: white;
+        display: grid;
+        gap: 40px;
+        
+    }
+
+    .icones_footer{
+        height: 50px;
+        width: 50px;
+        padding-left: 50px;
+    }
+
+    .logomob{
+        display: grid;
+        height: 100%;
+        width: 100%;
+    }
+
+    .logodesk{
+        display: none;
+    }
+}
+
+.central p{
+    font-size: 18px;
+
+}
+.central {
+    color: #FFFFFF;
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#linha-vertical{
+    height: 350px;
+    border-right: 1px solid #FFFFFF;
+    margin: 30px 0 15px 0;
+
+}
+
+.bloco_3 a{
+    color: #FFFFFF;
+    text-decoration: none;
+  
+}
+
+.bloco_3 p{
+    margin: 15px 0;
+}
+
+.logo-footer{
+    padding-left: 25px;
+    height: 150px;
+}
+.bloco_1{
+     padding-left: 150px;
+     
+}
+
+.bloco_1 p{
+   margin:15px;
+   
+   
+ 
+}
+.bloco_3{
+    padding-right: 150px;
+    
+}
+
+.bloco_3 p{
+    margin: 25px;
+}
+
+.zap_img{
+ max-width: 15%;
+}
